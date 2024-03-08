@@ -2,7 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 
 # Fetch the HTML content from the URL
-url = "https://tns4lpgmziiypnxxzel5ss5nyu0nftol.lambda-url.us-east-1.on.aws/challenge"
+# insert the URL for the challenge
+url = " "
 response = requests.get(url)
 
 # Check if the request was successful
