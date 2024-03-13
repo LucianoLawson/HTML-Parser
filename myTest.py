@@ -3,7 +3,7 @@ import requests
 
 # Fetch the HTML content from the URL
 # insert the URL for the challenge
-url = " "
+url = "https://tns4lpgmziiypnxxzel5ss5nyu0nftol.lambda-url.us-east-1.on.aws/challenge"
 response = requests.get(url)
 
 # Check if the request was successful
